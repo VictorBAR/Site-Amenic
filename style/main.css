@@ -1,0 +1,39 @@
+:root {
+    --preto: #000706;
+    --azul: #0C7E7E;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+
+body {
+    background: var(--preto);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+header .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    margin-left: 5px;
+    color: var(--azul);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #ffff;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #BFAC8B;
+}
